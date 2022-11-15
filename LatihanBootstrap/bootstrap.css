@@ -1,0 +1,49 @@
+.border-rounded {
+  border-radius: 20px;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.desc-img>* {
+  margin-bottom: 20px;
+}
+
+.desc-img h2 {
+  margin-bottom: 5px;
+}
+
+.img-5 {
+  position: relative;
+}
+
+.img-5:after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.submit-email {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.input-email {
+  border: none;
+  padding: 5px 10px;
+}
+
+.btn-submit {
+  border-radius: 10px;
+  border: none;
+  background-color: pink;
+}
+
+.copyright {
+  text-align: center;
+}
